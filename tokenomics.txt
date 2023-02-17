@@ -1,0 +1,12 @@
+$NFTE has been deployed and verified on Ethereum Mainnet, Optimism and Arbitrum. 
+
+The total token supply is 100,000,000 tokens with the allocations as follows:
+
+8% airdrop 1
+6% airdrop 2
+6% airdrop 3
+15% advisors
+35% trading rewards
+20% staking rewards
+5% founding team
+5% DAO treasury
