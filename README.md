@@ -13,6 +13,8 @@ Total token supply is hardcapped at 100,000,000 NFTE and will be distributed per
 
 Airdrop 1 will occur on February 21, 2023. 1,786 addresses qualified and are eligible for the airdrop #1.
 
+Addresses eligible can be viewed on [Google Sheets](https://docs.google.com/spreadsheets/d/1IkqCVrBkbT_s4IkQAbFAkgWXHICVqO7eKBE_AumzZco/edit?usp=sharing)
+
 See the [Documentation](docs.nftearth.exchange) for more information on NFTEarth.
 
 Open Zeppelin is the web3 gold standard for token deployments such as NFTE, providing A library for secure smart contract development. The token was deployed using Open Zeppelin's Contracts Library which can be referenced [here](https://docs.openzeppelin.com/contracts/4.x/)
