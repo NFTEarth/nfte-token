@@ -11,10 +11,9 @@ The $NFTE token contract been deployed to Ethereum Mainnet, Optimism and Arbitru
 [![Node.js CI](https://github.com/consenlabs/tokenlon-contracts/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/consenlabs/tokenlon-contracts/actions/workflows/node.js.yml)
 [![Built-with openzeppelin](https://img.shields.io/badge/built%20with-OpenZeppelin-3677FF)](https://docs.openzeppelin.com/)
 
-Tokenlon is a decentralized exchange and payment settlement protocol based on blockchain technology. Visit [nftearth.exchange](https://nftearth.exchange)
+NFTEarth is a decentralized NFT marketplace and hub on built on Layer2 blockchain technology. Visit [nftearth.exchange](https://nftearth.exchange)
 
 > Notice: This repository may contain changes that are under development. Make sure the correct commit is referenced when reviewing specific deployed contract.
-
 
 
 ## Deployed contracts (Arbitrum, Optimism, Ethereum Mainnet)
@@ -32,10 +31,10 @@ Tokenlon is a decentralized exchange and payment settlement protocol based on bl
 
 The total token supply is hardcapped at 100,000,000 across ALL network deployments and is to be allocated and distributerd per the voted tokenomic schedule across each network the token is live on.
 
-Airdrop 1 of the token began on February 21, 2023. 1,786 addresses qualified afor airdrop 1. Airdrop 2 is TBD starting date.
+Airdrop 1 of the token began on February 21, 2023. 1,786 addresses qualified afor airdrop 1. Airdrop 2 starting date is TBD.
 
-Eligible addresses for airdrop 1 can be viewed on this workbook here - [Google Sheets](https://docs.google.com/spreadsheets/d/1IkqCVrBkbT_s4IkQAbFAkgWXHICVqO7eKBE_AumzZco/edit?usp=sharing)
+Eligible addresses for airdrop 1 can be viewed in this workbook here - [Google Sheets](https://docs.google.com/spreadsheets/d/1IkqCVrBkbT_s4IkQAbFAkgWXHICVqO7eKBE_AumzZco/edit?usp=sharing)
 
 See the [Documentation](docs.nftearth.exchange) for more information on NFTEarth and the tokenomics of $NFTE.
 
-Open Zeppelin is the web3 gold standard in terms of contract libraries for token contract deployments for use cases such as NFTE, they provide A library for secure smart contract development. The token was deployed using Open Zeppelin's Contracts Library and this can be referenced [here](https://docs.openzeppelin.com/contracts/4.x/)
+Open Zeppelin is the web3 gold standard in terms of contract libraries for token contract deployments for use cases such as NFTE, they provide a library for secure smart contract development. The token was deployed using Open Zeppelin's Contracts Library and this can be referenced [here](https://docs.openzeppelin.com/contracts/4.x/).
