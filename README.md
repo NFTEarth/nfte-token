@@ -38,7 +38,7 @@ NFTEarth is a decentralized NFT marketplace and hub on built on Layer2 blockchai
 | ---------------- |
 | xNFTE                            | [0x0f9b80fc3c8b9123D0aEf43Df58ebDBC034A89XX](https://etherscan.io/address/0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901) | Staking          |
 | ---------------- |
-| NFTEStaking (Logic contract)     | [0x0f9b80fc3c8b9123D0aEf43Df58ebDBC034A89XX](https://etherscan.io/address/0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901) | Staking          |
+| NFTE Staking (Arbitrum)     | [0xaa9d9a8f810463f24825c05f3075c1fc6a430430](https://arbiscan.io/address/0xaa9d9a8f810463f24825c05f3075c1fc6a430430) | Staking Proxy          |
 | ---------------- |
 | L2NFTOG (Optimism)               | [0x00e3aA03e47c32397a94509E50B0558988C0D04E](https://optimistic.etherscan.io/address/0x00e3aa03e47c32397a94509e50b0558988c0d04e)        | NFT              |
 | ---------------- |
@@ -46,6 +46,8 @@ NFTEarth is a decentralized NFT marketplace and hub on built on Layer2 blockchai
 | ---------------- |
 
 The total token supply is hardcapped at 100,000,000 across ALL network deployments and is to be allocated and distributerd per the voted tokenomic schedule across each network the token is live on.
+
+The first staking rewards will consist of staking $NFTE on Arbitrum, for [$ARB](https://arbiscan.io/token/0x912ce59144191c1204e64559fe8253a0e49e6548) token rewards. The proxy contract can be viewed on [Arbiscan](https://arbiscan.io/address/0xaa9d9a8f810463f24825c05f3075c1fc6a430430).
 
 Airdrop 1 of the token began on February 21, 2023. 1,786 addresses qualified afor airdrop 1. Airdrop 2 starting date is TBD.
 
