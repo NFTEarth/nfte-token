@@ -1,12 +1,12 @@
 # NFTE Token
 
-NFTEarth mrketplace native token information and relevant contracts. Staking and incentive contracts are under development and to be deployed on L2 chains. 
+NFTEarth marketplace native token information and relevant contracts. Staking and incentive contracts are under development and to be deployed on L2 chains. 
 
-# The $NFTE token contract been deployed to Ethereum Mainnet, Optimism and Arbitrum, Polyogon zkEVM, and Polygon POS.
+# The $NFTE token contract been deployed to Ethereum Mainnet, Optimism and Arbitrum, Polygon zkEVM, and Polygon POS.
 
 # The staked version of $NFTE, $xNFTE will be deployed on Arbitrum Mainnet, and provided incentives to stakers, and enhanced other benefits across the NFTEarth hub as it is developed over time. The official contract address will be added upon deployment. 
 
-# There are currently 2 NFT collections used within the NFTEarth ecosystem, providing governance power and utility, a new NFT deployed on a separate L2 network will be deployed for the primary utility benefits; contract address will be added at time of deployment.
+# There are currently 2 NFT collections used within the NFTEarth ecosystem, providing governance power and utility, a new NFT deployed on a separate L2 network will be deployed for the primary utility benefits; contract address will be added at the time of deployment.
 
 # Block Explorers
 
@@ -19,7 +19,7 @@ NFTEarth mrketplace native token information and relevant contracts. Staking and
 [![Node.js CI](https://github.com/consenlabs/tokenlon-contracts/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/consenlabs/tokenlon-contracts/actions/workflows/node.js.yml)
 [![Built-with openzeppelin](https://img.shields.io/badge/built%20with-OpenZeppelin-3677FF)](https://docs.openzeppelin.com/)
 
-NFTEarth is a decentralized NFT marketplace and hub on built on Layer2 blockchain technology. Visit [nftearth.exchange](https://nftearth.exchange)
+NFTEarth is a decentralized NFT marketplace and hub built on Layer2 blockchain technology. Visit [nftearth.exchange](https://nftearth.exchange)
 
 > Notice: This repository may contain changes that are under development. Make sure the correct commit is referenced when reviewing specific deployed contract.
 
@@ -45,11 +45,11 @@ NFTEarth is a decentralized NFT marketplace and hub on built on Layer2 blockchai
 | The Few (Optimism)               | [0xD33b6AA2e696eCa26Ad96589b08bFd1b93D870E4](https://optimistic.etherscan.io/address/0xd33b6aa2e696eca26ad96589b08bfd1b93d870e4) | NFT            |
 | ---------------- |
 
-The total token supply is hardcapped at 100,000,000 across ALL network deployments and is to be allocated and distributerd per the voted tokenomic schedule across each network the token is live on.
+The total token supply is hardcapped at 100,000,000 across ALL network deployments and is to be allocated and distributed per the voted tokenomic schedule across each network the token is live on.
 
 The first staking rewards will consist of staking $NFTE on Arbitrum, for [$ARB](https://arbiscan.io/token/0x912ce59144191c1204e64559fe8253a0e49e6548) token rewards. The proxy contract can be viewed on [Arbiscan](https://arbiscan.io/address/0xaa9d9a8f810463f24825c05f3075c1fc6a430430).
 
-Airdrop 1 of the token began on February 21, 2023. 1,786 addresses qualified afor airdrop 1. Airdrop 2 starting date is TBD.
+Airdrop 1 of the token began on February 21, 2023. 1,786 addresses qualified for airdrop 1. Airdrop 2 starting date is TBD.
 
 Eligible addresses for airdrop 1 can be viewed in this workbook here - [Google Sheets](https://docs.google.com/spreadsheets/d/1IkqCVrBkbT_s4IkQAbFAkgWXHICVqO7eKBE_AumzZco/edit?usp=sharing)
 
