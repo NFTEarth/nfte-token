@@ -63,11 +63,6 @@ contract VotingEscrow is Ownable, ReentrancyGuard {
     int128 internal constant iMAXTIME = 1 * 365 * 86400;
     uint internal constant MULTIPLIER = 1 ether;
 
-    uint public immutable MINTIME;
-    address public immutable token;
-    uint public supply;
-    bool public unlocked;
-
     mapping(address => LockedBalance) public locked;
 
     uint public epoch;
@@ -75,6 +70,11 @@ contract VotingEscrow is Ownable, ReentrancyGuard {
     mapping(address => Point[1000000000]) public user_point_history; // user -> Point[user_epoch]
     mapping(address => uint) public user_point_epoch;
     mapping(uint => int128) public slope_changes; // time -> signed slope change
+
+    uint public immutable MINTIME;
+    address public immutable token;
+    uint public supply;
+    bool public unlocked;
 
     // Aragon's view methods for compatibility
     address public controller;
@@ -154,7 +154,7 @@ contract VotingEscrow is Ownable, ReentrancyGuard {
 
     /// @notice Record global and per-user data to checkpoint
     /// @param _addr User's wallet address. No user checkpoint if 0x0
-    /// @param old_locked Pevious locked amount / end lock time for the user
+    /// @param old_locked Previous locked amount / end lock time for the user
     /// @param new_locked New locked amount / end lock time for the user
     function _checkpoint(address _addr, LockedBalance memory old_locked, LockedBalance memory new_locked) internal {
         Point memory u_old;
@@ -177,7 +177,7 @@ contract VotingEscrow is Ownable, ReentrancyGuard {
 
             // Read values of scheduled changes in the slope
             // old_locked.end can be in the past and in the future
-            // new_locked.end can ONLY by in the FUTURE unless everything expired: than zeros
+            // new_locked.end can ONLY be in the FUTURE unless everything expired: than zeros
             old_dslope = slope_changes[old_locked.end];
             if (new_locked.end != 0) {
                 if (new_locked.end == old_locked.end) {
@@ -258,7 +258,7 @@ contract VotingEscrow is Ownable, ReentrancyGuard {
             }
         }
 
-        // Record the changed point into history
+        // Record the changed point in history
         point_history[_epoch] = last_point;
 
         if (_addr != address(0x0)) {
